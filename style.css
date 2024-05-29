@@ -1,0 +1,60 @@
+.main {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(232, 196, 218);
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(52, 37, 132);
+}
+
+#taskInput {
+  height: 6vh;
+  width: 12vw;
+  border-style: dashed;
+  border-color: green;
+  text-align: center;
+}
+
+#addButton {
+  height: 5.4vh;
+  width: 8vw;
+  border-radius: 25px;
+  background-color: green;
+  border-style: none;
+  font-size: 1vw;
+}
+
+#addButton:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-skip-ink: none ;
+}
+
+#taskList {
+  width: 50%;
+  height: 95%;
+  border: 3px solid violet;
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  font-size: 1.5rem;
+}
+li:hover {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+  text-decoration-color: red;
+}
